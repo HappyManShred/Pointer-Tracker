@@ -1,7 +1,7 @@
 ﻿Public Class Form1
     Public X As Integer
     Public Y As Integer
-    Dim g As Graphics
+   
 
     Private Sub Form1_MouseMove(sender As Object, e As MouseEventArgs) Handles MyBase.MouseMove
         X = e.X
@@ -15,7 +15,7 @@
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        g = Me.CreateGraphics
+    
     End Sub
 End Class
 
